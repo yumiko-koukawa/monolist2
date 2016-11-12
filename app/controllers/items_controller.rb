@@ -13,7 +13,7 @@ class ItemsController < ApplicationController
   end
 
   def show
-
+      @imageflags = item['imageFlag'] 
   end
 
   private
